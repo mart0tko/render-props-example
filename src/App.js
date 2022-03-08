@@ -1,4 +1,5 @@
 import React from "react";
+import ConditionalPropsRender from "./ConditionalPropsRender";
 import Open from "./Open";
 import Profile from "./Profile";
 import Resourse from "./Resourse";
@@ -18,6 +19,8 @@ function App() {
         render={data => {
           return <Profile data={data.payload} />
         }} />
+        <ConditionalPropsRender propsType="v1"/>
+        <ConditionalPropsRender propsType="v2"/>
     </>
   );
 }
