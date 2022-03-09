@@ -1,8 +1,8 @@
 const V1 = () => {
-    return (<div>V1</div>);
+    return (<div>Rendered component - <b>V1</b></div>);
 }
 const V2 = () => {
-    return (<div>V2</div>);
+    return (<div>Rendered component - <b>V2</b></div>);
 }
 
 const components = {
